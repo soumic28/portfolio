@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "General sans";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#min{
+    transition:all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    z-index: 9999;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+#main{
+    width: 100%;
+    background-color: black;
+    
+    
+
+}
+#mainpage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: beige;
+    background-color: black;
+    
+    
+}
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: beige;
+    padding: 20px 40px;
+}
+#nav a{
+    color: beige;
+    text-decoration: none;
+}
+#headings{
+    
+    margin: 80px;
+}
+#headings h1{
+    opacity: 0.6;
+    line-height: 1;
+    font-size: 9vw;
+}
+
+
+.sndh1 h1{ 
+    text-align: right;
+}
+.sndh1 h3{
+    text-align: right;
+    line-height: 1;
+    font-size: 15px;
+}
+#work{
+    margin-top: 200px;
+    padding-right: 40px;
+}
+#work h5{
+    margin-top: .5vw;
+    font-size: 1vw;
+    text-align: right;
+}
+#icons{
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#icons a{
+    color: beige;
+    text-decoration: none;
+}
+#icons #circleicon{
+    display: flex;
+    gap: 5px;
+}
+
+#icons .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #888;
+    border-radius: 50%;
+}
+#secondmain{
+    
+    color: beige;
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+    width: 100%;
+
+    
+}
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 3.5vw 3vw;
+    padding-right: 0px;
+    border-top: 1px solid #888;
+    
+
+
+}
+.elem h1{
+    color: beige;
+    opacity: .7;
+    font-size: 6.5vw;
+}
+
+.last{
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    z-index: 999;
+    height: 100%;
+    position: absolute;
+}
+#about{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10vw 5vw;
+    padding-left: 30vw;
+    width:100% ;
+    color: #fff;
+    background-color: black;
+}
+#textabout{
+    width: 35rem;
+    
+    
+}
+#textabout h5{
+    opacity: .7;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+#textabout a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+#about img{
+    
+    width: 280px;
+    border-radius: 120px
+}
+#follow{
+    color: #fff;
+    background-color: black;
+    padding: 20px 40px;
+    padding-bottom: 7vw;
+}
+#follow h5{
+    opacity: .6;
+}
+#follow h3{
+    font-size: 14px;
+    margin-top: 7px;
+}
+#feet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background-color: black;
+    color: #fff;
+}
+#feetleft{
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+}
+#feetright{
+    display: flex;
+    gap: 50px;
+}
+#feetright a{
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
